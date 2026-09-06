@@ -1,3 +1,27 @@
+/*
+ * HOTEL MANAGEMENT SYSTEM
+ *
+ * This project was developed as part of the C Programming Language course.
+ * It was developed collaboratively as a team project.
+ *
+ * The system is designed to manage:
+ * - Hotel rooms
+ * - Clients
+ * - Reservations
+ * - Invoices
+ *
+ * C programming concepts used in this project include:
+ * - Structures
+ * - Pointers
+ * - Dynamic memory allocation
+ * - Doubly linked lists
+ * - Searching and sorting
+ * - Input validation
+ *
+ * The program allows users to add, display, modify, delete,
+ * search and sort rooms and clients, as well as manage reservations
+ * and calculate invoices.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
