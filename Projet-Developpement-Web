@@ -1,0 +1,534 @@
+Le-Delice-Marocain/
+│
+├── index.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Délice Marocain</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="menu">
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+
+<div class="header">
+    <h1>Bienvenue au Délice Marocain</h1>
+    <p>Découvrez les saveurs authentiques du Maroc</p>
+</div>
+
+
+<div class="section">
+    <h2>Notre restaurant</h2>
+    <p>
+        Le Délice Marocain vous propose une expérience culinaire unique
+        avec des plats traditionnels préparés avec passion.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Pourquoi nous choisir ?</h2>
+    <ul>
+        <li>Produits frais</li>
+        <li>Recettes traditionnelles</li>
+        <li>Ambiance chaleureuse</li>
+    </ul>
+</div>
+
+
+<div class="footer">
+    <p> 2026 Le Délice Marocain</p>
+</div>
+
+</body>
+</html>
+├── about.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="menu">
+    <ul> 
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+    
+    <div class="header">
+        <h1>À propos de notre restaurant</h1>
+        <p>Une histoire de passion, de goût et de partage</p>
+    </div>
+
+   
+    <div class="section">
+        <h2>Qui sommes-nous ?</h2>
+        <p>
+            Notre restaurant est un lieu chaleureux où la cuisine traditionnelle rencontre la modernité.
+            Nous préparons chaque plat avec soin et des ingrédients frais sélectionnés chaque jour.
+        </p>
+    </div>
+
+  
+    <div class="section">
+        <h2>Notre histoire</h2>
+        <p>
+            Tout a commencé avec une passion pour la cuisine familiale.
+            Avec le temps, cette passion est devenue un restaurant reconnu pour la qualité de ses plats
+            et son accueil chaleureux.
+        </p>
+    </div>
+
+   
+    <div class="section">
+        <h2>Nos valeurs</h2>
+
+        <div class="box">
+            <p>Qualité des produits frais et locaux</p>
+        </div>
+
+        <div class="box">
+            <p>Passion dans chaque plat préparé</p>
+        </div>
+
+        <div class="box">
+            <p>Accueil chaleureux et service professionnel</p>
+        </div>
+    </div>
+
+   
+    <div class="section">
+        <h2>Notre équipe</h2>
+
+        <div class="team">
+            <p>Chef cuisinier : responsable de la création des plats</p>
+            <p>Sous-chef : assistance et préparation en cuisine</p>
+            <p>Service : accueil et satisfaction des clients</p>
+        </div>
+    </div>
+
+   
+    <div class="section">
+        <h2>Notre ambiance</h2>
+        <p>
+            Nous offrons un espace calme, moderne et convivial adapté aux familles,
+            amis ou repas professionnels. Chaque visite est une expérience agréable.
+        </p>
+    </div>
+
+   
+    <div class="footer">
+        <p>&copy; 2026 Restaurant - Tous droits réservés</p>
+    </div>
+
+</body>
+</html>
+├── contact.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+
+<div class="menu">
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<h1>Contactez-nous</h1>
+
+<div class="section">
+    <p>Veuillez remplir le formulaire ci-dessous pour toute réservation ou information.</p>
+</div>
+
+
+<div class="form-box">
+
+    <form action="principale.html">
+
+        <fieldset>
+            <legend>Informations personnelles</legend>
+
+            <p>
+                <label for="nom">Nom complet</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom"required>
+            </p>
+
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+            </p>
+
+            <p>
+                <label for="tel">Téléphone</label>
+                <input type="text" id="tel" name="tel" placeholder="Votre numéro" required>
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Votre message</legend>
+
+            <p>
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message" placeholder="Écrivez votre message" required>
+            </p>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Envoyer">
+        </p>
+
+    </form>
+
+</div>
+
+
+<div class="section">
+    <h2>Nos informations</h2>
+    <p>Adresse : Casablanca, Maroc</p>
+    <p>Téléphone : 06 00 00 00 00</p>
+    <p>Email : restaurant@gmail.com</p>
+</div>
+
+</body>
+</html>
+├── menu.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-galerie">
+
+
+<div class="menu">
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<h1>Notre Carte</h1>
+
+
+<div class="section">
+    <h2>Entrées</h2>
+    <ul>
+        <li>Salade César au poulet grillé - 35 DH</li>
+        <li>Soupe de légumes maison - 25 DH</li>
+        <li>Bruschetta tomate basilic - 30 DH</li>
+    </ul>
+</div>
+
+
+<div class="section">
+    <h2>Plats principaux</h2>
+    <ul>
+        <li>Steak grillé sauce poivre - 95 DH</li>
+        <li>Poulet rôti aux herbes - 75 DH</li>
+        <li>Pâtes carbonara maison - 70 DH</li>
+        <li>Poisson grillé citron - 85 DH</li>
+    </ul>
+</div>
+
+
+<div class="section">
+    <h2>Desserts</h2>
+    <ul>
+        <li>Fondant au chocolat - 30 DH</li>
+        <li>Cheesecake fruits rouges - 35 DH</li>
+        <li>Crème caramel - 25 DH</li>
+    </ul>
+</div>
+
+
+<div class="section">
+    <h2>Boissons</h2>
+    <ul>
+        <li>Jus frais (orange, fraise, mangue) - 20 DH</li>
+        <li>Smoothie fruits mix - 25 DH</li>
+        <li>Café espresso - 10 DH</li>
+        <li>Eau minérale - 5 DH</li>
+    </ul>
+</div>
+
+</body>
+</html>
+├── galerie.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Galerie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="menu">
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">À propos</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<h1>Notre Galerie</h1>
+
+<div class="intro">
+    <p>Découvrez quelques photos de nos plats et de notre restaurant.</p>
+</div>
+
+
+<div class="gallery">
+
+    <div class="image-box">
+       <img src="images/plat du jr.jpeg" alt="Plat 1">
+        <p>Plat du jour</p>
+    </div>
+
+    <div class="image-box">
+       <img src="images/specialite maison.jpeg" alt="Plat 2">
+        <p>Spécialité maison</p>
+    </div>
+
+    <div class="image-box">
+        <img src="images/grillade.jpeg" alt="Plat 3">
+        <p>Grillades</p>
+    </div>
+
+    <div class="image-box">
+        <img src="images/dessert.jpeg" alt="Plat 4">
+
+        <p>Dessert gourmand</p>
+    </div>
+
+    <div class="image-box">
+        <img src="images/salle.jpeg" alt="Restaurant">
+        <p>Notre salle</p>
+    </div>
+
+   
+</div>
+
+</body>
+</html>
+│
+├── style.css
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f4efe9;
+    color: #3b2f2f;
+    text-align: center;
+}
+
+.menu {
+    background: #5a3e2b;
+    padding: 15px;
+   
+}
+
+.menu ul { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #d9b38c;
+}
+
+
+h1 {
+    margin-top: 25px;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    color: #5a3e2b;
+}
+
+h2 {
+    color: #6b4f3a;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.section {
+    background: #fff;
+    margin: 20px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.form-box {
+    width: 80%;
+    margin: auto;
+}
+
+fieldset {
+    border: 2px solid #c9a27e;
+    margin-bottom: 15px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #5a3e2b;
+}
+
+input {
+    width: 100%;
+    padding: 10px ;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: 1px solid #c9a27e;
+    border-radius: 5px;
+   
+}
+
+input[type="submit"] {
+    background: #5a3e2b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background: #d9b38c;
+    color: #3b2f2f;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.image-box {
+    width: 250px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.image-box img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.image-box p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5a3e2b;
+    text-align: center;
+}
+
+.footer {
+    background: #5a3e2b;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+├── script.js
+const form = document.querySelector("form");
+
+form.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const nom = document.getElementById("nom").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const tel = document.getElementById("tel").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    if (nom === "" || email === "" || tel === "" || message === "") {
+        alert("Veuillez remplir tous les champs.");
+        return;
+    }
+
+    alert("Merci " + nom + " ! Votre message a bien été envoyé.");
+
+    form.reset();
+});
+│
+└── images/
+    ├── salle.jpeg
+    ├── specialite maison.jpeg
+    ├── dessert.jpeg
+    ├── plat du jr.jpeg
+    └── grillade.jpeg
